@@ -104,3 +104,27 @@ a{
 .infotext{
     max-width: 150px;
 }
+
+/* for quote */
+.quote{
+    height: 400px;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 150px;
+    gap: 50px;
+}
+.quote_text{
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    
+}
+.writer{
+    align-self: flex-end;
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+}
