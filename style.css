@@ -70,3 +70,37 @@ a{
     border: 2px solid red;
     margin-top: 20px;
 }
+/* for information */
+.information{
+    height: 400px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
+
+.infoimg{
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+}
+.inheader{
+    font-size: 36px;
+    color: #1f2937;
+    align-self: center;
+}
+.inimg{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.intext{
+    display: flex;
+    justify-content: space-evenly;
+}
+.infotext{
+    max-width: 150px;
+}
